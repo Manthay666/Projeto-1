@@ -1,6 +1,6 @@
 body{
     font-family: arial, sans-sirif;
-    background-color: #caf3a1;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,24 +10,29 @@ body{
   
     h2 { 
       text-align: center;
-      margin-top: 20px;
+      margin-top: 15px;
     }
   
   img {
+    border: 5px solid rgb(6, 121, 136);
     max-width: 100%;
-    height: auto;
+    width: 320px; 
     display: block;
-    margin: 20px auto;
+    margin: 20px ;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(22, 18, 18, 0.3);
   }
   
   a {
-   display: block; margin-bottom: 10px;
-   text-align: center;
+   display: block; 
+   margin-bottom: 70px;
+   text-align: left;
    font-weight: bold;
-   color: #ff8f76;;
+   color: #ffffff;
+   margin: 30px ;
    text-decoration: none;
+   font-size: 60px; 
+   font-style: italic;
   }
   
    a:hover {
@@ -38,26 +43,25 @@ body{
      margin-top: 15px;
   }
   
-   footer {
-    text-align: center;
-    background-color: #000000;
-    color: #fff;
-    padding: 10px 0;
-     width: 100%;
-  }
   
    footer {
     text-align: center;
-       background-color: #000000;
-        color: #fff;
-        padding: 10px 0; width: 100%;
+       background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px ;
+         width: 100%;
   
      }
-  @midia (max-width: 768px) {
-      footer{
-         position: static;
-     }
-  }
+  
+
+h1{
+  border: 10px solid rgb(255, 255, 255);
+  background-color: rgb(6, 121, 136);
+  color: rgb(0, 0, 0);
+text-align: center;
+font-style: oblique;
+
+}
 
 
 
