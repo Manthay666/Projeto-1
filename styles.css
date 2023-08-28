@@ -34,7 +34,7 @@ body{    /*corpo da pagian*/
    font-size: 60px; 
    font-style: italic;
   }
-  /* cor do link quando aproxima o mause
+  /* cor do link quando aproxima o mause*/
    a:hover {
     color:#3e5252;
       }
