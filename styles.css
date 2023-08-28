@@ -1,4 +1,4 @@
-body{
+body{    /*corpo da pagian*/
     font-family: arial, sans-sirif;
     background-color: #000000;
     margin: 0;
@@ -7,12 +7,12 @@ body{
     flex-direction: column;
     min-height: 100vh; 
   }
-  
+    /* Estolo para o titulo*/
     h2 { 
       text-align: center;
       margin-top: 15px;
     }
-  
+  /* estilizar img*/
   img {
     border: 5px solid rgb(6, 121, 136);
     max-width: 100%;
@@ -22,7 +22,7 @@ body{
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(22, 18, 18, 0.3);
   }
-  
+  /* estilo para os links*/
   a {
    display: block; 
    margin-bottom: 70px;
@@ -34,16 +34,16 @@ body{
    font-size: 60px; 
    font-style: italic;
   }
-  
+  /* cor do link quando aproxima o mause
    a:hover {
     color:#3e5252;
       }
-  
+  /* espaçamento do restaurante*/
     a + img {
      margin-top: 15px;
   }
   
-  
+  /* estilizar o rodapé*/
    footer {
     text-align: center;
        background-color: #ffffff;
@@ -53,7 +53,7 @@ body{
   
      }
   
-
+/* cores fonte e texto*/
 h1{
   border: 10px solid rgb(255, 255, 255);
   background-color: rgb(6, 121, 136);
