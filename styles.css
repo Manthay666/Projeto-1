@@ -23,35 +23,40 @@ img {
 }
 
 a {
-display: block; margin-bottom: 10px;
-text-align: center;
-font-weight: bold;
-color: #11b421;;
-text-decoration: none;
+ display: block; margin-bottom: 10px;
+ text-align: center;
+ font-weight: bold;
+ color: #11b421;;
+ text-decoration: none;
 }
 
-a:hover {
+ a:hover {
   color:#13efef;
     }
 
-a + img {
-  margin-top: 15px;
+  a + img {
+   margin-top: 15px;
 }
 
-footer {
- text-align: center;
- background-color: #000000;
- color: #fff;
- padding: 10px 0;
- width: 100%;
+ footer {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+   width: 100%;
 }
 
-footer {
- text-align: center;
- background-color: #000000;
- color: #fff;
- padding: 10px 0; width: 100%;
+ footer {
+  text-align: center;
+     background-color: #000000;
+      color: #fff;
+      padding: 10px 0; width: 100%;
 
+   }
+@midia (max-width: 768px) {
+    footer{
+       position: static;
+   }
 }
 
 
