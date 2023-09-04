@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria de Imagens Ampliáveis</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+<body>
+
+<h1 class="titulo">"Visita no Campus Colorado" </h1>
+<p> A viagem foi realizada no dia 09 de agosto de 2023,
+   foi algo muito interessante para todos os alunos,
+   lá tivemos a chance de conhecer todos os setores do campus e claro ver os animais,
+    plantas e tudo aquilo que eles manuseiam.</p>
+<p> Algo que achei muito interessante nessa instituição é que tudo aquilo que é consumido na escola vem da própia produção deles, seria interessante se existisse outros campus com a mesma capacidade dentro do nosso estado .
+
+
+
+
+
+</p>
+
+
+  <p>Tivemos uma recepção pelo professor Glauber Bedini, 
+    onde ele mostrou diversos projetos e atividades do campus colorado, após isso todos os alunos fizeram uma trilha por toda area da instituição,
+     ficou como "atividade" registrar fotografias de coisas interessantes encontradas durante o passeio .</p>
+<div class="tabela">
+  
+
+  <div class="sla">
+    ]
+<div class="gallery">
+  <div class="sla">
+    <div class="item">
+  <img src="img.fotos/1.jpeg" alt="Imagem 1" onclick="openModal(this)">
+  <img src="img.fotos/2.jpeg" alt="Imagem 2" onclick="openModal(this)">
+  <img src="img.fotos/3.jpeg" alt="Imagem 3" onclick="openModal(this)">
+  <img src="img.fotos/4.jpeg" alt="Imagem 4" onclick="openModal(this)">
+  <img src="img.fotos/5.jpeg" alt="Imagem 5" onclick="openModal(this)">
+  <div class="sla"></div>
+  <img src="img.fotos/6.jpeg" alt="Imagem 6" onclick="openModal(this)">
+  <img src="img.fotos/7.jpeg" alt="Imagem 7" onclick="openModal(this)">
+  <img src="img.fotos/8.jpeg" alt="Imagem 8" onclick="openModal(this)">
+  <img src="img.fotos/9.jpeg" alt="Imagem 9" onclick="openModal(this)">
+  <img src="img.fotos/10.jpeg" alt="Imagem 10" onclick="openModal(this)">
+  
+  <!-- Adicione mais imagens aqui -->
+</div>
+
+<div class="modal" id="modal">
+  <span class="modal-content">
+    <img id="modal-image" src="" alt="Imagem Ampliada">
+  </span>
+</div>
+
+<script>
+function openModal(imgElement) {
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modal-image");
+
+  modalImage.src = imgElement.src;
+  modal.style.display = "flex";
+
+  modal.addEventListener("click", closeModal);
+}
+
+function closeModal() {
+  const modal = document.getElementById("modal");
+  modal.style.display = "none";
+  modal.removeEventListener("click", closeModal);
+}
+</script>
+</body>
+</html>
+</div>
+</div>
+</div>
+</div>
