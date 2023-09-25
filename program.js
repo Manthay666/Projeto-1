@@ -11,14 +11,14 @@ let currentTrackIndex = 0;
 
 const playlist = [
     'WhatsApp Audio (10).mp3',
-    'WhatsApp Audio ().mp3',
+    'WhatsApp Audio (2).mp3',
+    'WhatsApp Audio (3).mp3',
     'WhatsApp Audio (4).mp3',
     'WhatsApp Audio (5).mp3',
     'WhatsApp Audio (6).mp3',
     'WhatsApp Audio (7).mp3',
     'WhatsApp Audio (8).mp3',
     'WhatsApp Audio (9).mp3',
-    'WhatsApp Audio (10).mp3',
     'WhatsApp Audio.mp3',
 ];
 
