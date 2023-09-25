@@ -10,16 +10,16 @@ nextButton.addEventListener('click', playNext);
 let currentTrackIndex = 0;
 
 const playlist = [
-    'musica_1.mp3',
-    'musica_2.mp3',
-    'musica_3.mp3',
-    'musica_4.mp3',
-    'musica_5.mp3',
-    'musica_6.mp3',
-    'musica_7.mp3',
-    'musica_8.mp3',
-    'musica_9.mp3',
-    'musica_10.mp3',
+    'WhatsApp Audio (2).mp3',
+    'WhatsApp Audio (3).mp3',
+    'WhatsApp Audio (4).mp3',
+    'WhatsApp Audio (5).mp3',
+    'WhatsApp Audio (6).mp3',
+    'WhatsApp Audio (7).mp3',
+    'WhatsApp Audio (8).mp3',
+    'WhatsApp Audio (9).mp3',
+    'WhatsApp Audio (10).mp3',
+    'WhatsApp Audio.mp3',
 ];
 
 function togglePlay() {
